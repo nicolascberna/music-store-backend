@@ -9,5 +9,5 @@ export class RegisterDto {
     password: string
     
     @IsNotEmpty({ message: "Name is required" })
-    name: string
+    username: string
 }
