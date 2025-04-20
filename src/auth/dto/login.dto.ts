@@ -7,4 +7,3 @@ export class LoginDto {
     @IsNotEmpty({ message: "Password is required" })
     password: string
 }
-// Compare this snippet from src/auth/dto/reset-password.dto.ts:
